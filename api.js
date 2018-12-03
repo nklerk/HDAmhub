@@ -4,8 +4,8 @@ function API(host) {
   this.host = host;
 }
 
-API.prototype.sendProntoHex = function sendProntoHex(io, data) {
-  return apiPost(this.host, `command/irpass/${io}/`, data).then(r => {
+API.prototype.sendProntoHex = function sendProntoHex(io, prontoHex) {
+  return apiPost(this.host, `command/irpass/${io}/`, prontoHex).then(r => {
     return r;
   });
 };
