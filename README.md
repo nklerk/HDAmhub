@@ -47,7 +47,8 @@ hda.discover().then(mhubs => {
 
 ```javascript
 let commandNumber = hda.uControlMapping()["3D"];
-let io = "a"; api.executeUcontrolCommand(io, commandNumber):
+let io = "a";
+api.executeUcontrolCommand(io, commandNumber):
 ```
 
 ## API Functions.
