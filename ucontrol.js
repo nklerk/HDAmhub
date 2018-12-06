@@ -64,3 +64,7 @@ function mapping() {
     DSTV: "59"
   };
 }
+
+module.exports = {
+  mapping
+};
