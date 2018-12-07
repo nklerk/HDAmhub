@@ -11,7 +11,7 @@ module.exports = {
 function discover() {
   return new Promise((resolve, reject) => {
     let discovered = [];
-    mdnsBrowser = mdns.createBrowser("_http._tcp");
+    let mdnsBrowser = mdns.createBrowser("_http._tcp");
 
     mdnsBrowser.on("ready", function() {
       console.log("Discovery:  Start");
