@@ -11,7 +11,7 @@ API.prototype.sendProntoHex = function sendProntoHex(io, prontoHex) {
 };
 
 API.prototype.executeUcontrolCommand = function executeUcontrolCommand(io, commandNumber) {
-  return apiGet(this.host, `command/ir/​${io}/${commandNumber}/`).then(r => {
+  return apiGet(this.host, `command/ir/${io}/${commandNumber}/`).then(r => {
     return r;
   });
 };
