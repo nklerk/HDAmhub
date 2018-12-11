@@ -41,5 +41,5 @@ function isMdnsDataMhub(mdnsData) {
 }
 
 function isUnique(array, element) {
-  return array.indexOf(element) > -1;
+  return array.indexOf(element) === -1;
 }
