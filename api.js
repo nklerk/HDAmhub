@@ -221,7 +221,7 @@ function apiPost(mHubHost, api, data) {
     .then(r => {
       try {
         return JSON.parse(r.data).data;
-      } catch {}
+      } catch (e) {}
     })
     .catch(e => {
       console.log(e);
