@@ -5,7 +5,7 @@ function API(host) {
 }
 
 API.prototype.sendProntoHex = function sendProntoHex(io, prontoHex) {
-  return apiPost(this.host, `command/irpass/${io}/`, prontoHex).then(r => {
+  return apiPost(this.host, `command/irpass/${io}/`, `{"irdata":"${prontoHex}"} `).then(r => {
     return r;
   });
 };
