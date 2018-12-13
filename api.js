@@ -175,19 +175,19 @@ API.prototype.getPowerState = function getPowerState() {
 };
 
 API.prototype.identify = function identify() {
-  return apiGet(this.host, `identify/`).then(r => {
+  return apiGet(this.host, "identify/").then(r => {
     return r;
   });
 };
 
 API.prototype.powerOn = function powerOn() {
-  return apiGet(this.host, `power/1/`).then(r => {
+  return apiGet(this.host, "power/0/").then(r => {
     return r;
   });
 };
 
 API.prototype.powerOff = function powerOff() {
-  return apiGet(this.host, `power/0/`).then(r => {
+  return apiGet(this.host, "power/0/").then(r => {
     return r;
   });
 };

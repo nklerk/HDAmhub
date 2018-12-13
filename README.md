@@ -1,4 +1,4 @@
-NodeJS Module for HD Anywhere MHUB
+NodeJS Module for HDANYWHERE MHUB
 
 Product site: http://hdanywhere.co.uk/
 
