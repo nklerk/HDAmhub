@@ -181,7 +181,7 @@ API.prototype.identify = function identify() {
 };
 
 API.prototype.powerOn = function powerOn() {
-  return apiGet(this.host, "power/0/").then(r => {
+  return apiGet(this.host, "power/1/").then(r => {
     return r;
   });
 };
