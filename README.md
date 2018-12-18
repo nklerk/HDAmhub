@@ -4,7 +4,7 @@ Product site: http://hdanywhere.co.uk/
 
 #Installation:
 
-`npm install https://github.com/nklerk/HDAmhub.git --save`
+`npm install hdamhub --save`
 
 #Code Examples
 

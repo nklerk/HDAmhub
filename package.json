@@ -1,6 +1,6 @@
 {
   "name": "hdamhub",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "HDA Mhub node module",
   "main": "index.js",
   "scripts": {
